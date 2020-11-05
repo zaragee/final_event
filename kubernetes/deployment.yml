@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: event
-          image: admin28.azurecr.io/event:latest
+          image: admin28reg.azurecr.io/event:latest
           ports:
             - containerPort: 8080
           readinessProbe:
