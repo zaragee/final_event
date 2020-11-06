@@ -62,6 +62,8 @@ spring:
         event-out:
           destination: pizza
           contentType: application/json
+
+#hystrix test
 feign:
   hystrix:
     enabled: true
